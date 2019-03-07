@@ -1693,6 +1693,7 @@ height: 1370px;
 	height: 1410px;
 }
 ul.sendbullet {
+
 	@media (max-width:1680px)
 	{ padding-left:1.6em;}
 	@media (max-width:1280px)
@@ -1700,8 +1701,22 @@ ul.sendbullet {
 	@media (max-width:1140px)
 	{ padding-left:2.8em;}
 }
+#five ul.sendbullet li.abnorm {
+			 padding-left:0em;
+		  margin-left:1.3em;
+			@media (max-width:1680px)
+			{ padding-left:0em;
+			    margin-left: -1.8em;}
+			@media (max-width:1280px)
+			{ padding-left:0em;
+			    margin-left: -3.9em;}
+			@media (max-width:1140px)
+			{ padding-left:0em;
+			    margin-left: -4.3em;}
 
-#two ul.sendbullet , #five ul.sendbullet li.abnorm {
+		}
+#two ul.sendbullet  {
+
 	@media (max-width:1680px)
 	{ padding-left:0em;
 	    margin-left: -1.8em;}
