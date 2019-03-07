@@ -1,20 +1,45 @@
 import React from 'react'
-
+import logo from '../assets/images/Shape/png/Shape@2x.png'
 class Header extends React.Component {
     render() {
         return (
+
+
+
+
+
             <section id="header">
-                <div className="inner">
-                    <span className="icon major fa-cloud"></span>
-                    <h1>Hi, I'm <strong>Photon</strong>, another fine<br />
-                    little freebie from <a href="http://html5up.net">HTML5 UP</a>.</h1>
-                    <p>Accumsan feugiat mi commodo erat lorem ipsum, sed magna<br />
-                    lobortis feugiat sapien sed etiam volutpat accumsan.</p>
-                    <ul className="actions">
-                        <li><a href="#one" className="button scrolly">Discover</a></li>
-                    </ul>
+            <div className="skewy">
+               <div  id="nav"  className="grid-wrapper nav-wrapper col-12">
+                 <div className="navitems">
+                  <div className="logo-container">
+                    <img src={logo} alt="Upsales Logo" className="logo" />
+                  </div>
+                   <ul className="inline">
+                     <li><a href="#">Platform</a></li>
+                     <li><a href="#">Resources</a></li>
+                     <li><a href="#">Pricing</a></li>
+                   </ul>
+                 </div>
+                 <div className="button-nav">
+                   <div className="button-container login navitems">Log in</div>
+                   <div className="button-container"><button className="rectangle-14-copy-6 regular">Free Trial</button></div>
+                 </div>
+               </div>
+               <div className="grid-wrapper header-contents">
+                  <div className="inner col-12">
+
+                      <h1 className="the-revenue-engine-f">Your entire customer journey. Automated</h1>
+                      <p className="you-need-to-move-fas-copy">You need to move fast and sell more. You need a revenue engin with CRM and Marketing Auotation that can handle it. Unite sales and marketing with one platform for the whole journey.</p>
+                      <ul className="actions">
+                          <li><a href="#one" className="button scrolly">Try it out</a></li>
+                          <li><a href="#two" className="button scrolly">Watch the video</a></li>
+                      </ul>
+                  </div>
                 </div>
-            </section>
+            </div>
+          </section>
+
         )
     }
 }
