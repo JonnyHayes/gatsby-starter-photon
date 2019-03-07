@@ -216,15 +216,15 @@
 		}
 
 		&.major {
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
-
+			// margin: 0 0 (_size(element-margin) * 0.5) 0;
+			margin: 0 0 5em 0;
 			&:after {
-				background: _palette(border);
-				content: '';
-				display: inline-block;
-				height: 1px;
-				margin-top: (_size(element-margin) * 0.75);
-				width: 6em;
+				// background: _palette(border);
+				// content: '';
+				// display: inline-block;
+				// height: 1px;
+				// margin-top: (_size(element-margin) * 0.75);
+				// width: 6em;
 			}
 
 			h2, h3, h4, h5, h6 {
@@ -1610,7 +1610,16 @@ align-items: center;
 height: 642px;
 }
 
+.headercopy{
 
+  color: #4B5562;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 540px;
+  text-align: left;
+}
 .scrolly {
 
 	background-color: #4A90E2;

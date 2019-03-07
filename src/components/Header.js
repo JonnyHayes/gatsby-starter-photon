@@ -30,7 +30,7 @@ class Header extends React.Component {
                   <div className="inner col-12">
 
                       <h1 className="the-revenue-engine-f">Your entire customer journey. Automated</h1>
-                      <p className="you-need-to-move-fas-copy">You need to move fast and sell more. You need a revenue engin with CRM and Marketing Auotation that can handle it. Unite sales and marketing with one platform for the whole journey.</p>
+                      <p className="headercopy">You need to move fast and sell more. You need a revenue engine with CRM and Marketing Automation that can handle it. Unite sales and marketing with one platform for the whole customer journey.</p>
                       <ul className="actions">
                           <li><a href="#one" className="button scrolly">Try it out</a></li>
                           <li><a href="#two" className="button scrolly">Watch the video</a></li>
