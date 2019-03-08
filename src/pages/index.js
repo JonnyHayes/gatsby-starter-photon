@@ -11,6 +11,8 @@ import pic03 from '../assets/images/Microsoft_exchange_logo/png/Microsoft_exchan
 import pic04 from '../assets/images/1200px-Google-calendar/png/1200px-Google-calendar.png'
 import pic05 from '../assets/images/Islands_Campaign_Engine/png/Islands_Campaign_Engine@2x.png'
 import pic06 from '../assets/images/Browserpic/png/Browserpic@2x.png'
+import pic07 from '../assets/images/trianglebg.png'
+import pic08 from '../assets/images/graylinebg.png'
 var sectionStyle1 = {
 
 
@@ -21,6 +23,24 @@ var sectionStyle1 = {
 
 };
 
+var tribg = {
+
+
+  backgroundImage: `url(${pic07})`,
+  backgroundRepeat  : 'no-repeat',
+  backgroundPosition: 'center top',
+  height: '55px',
+  position: 'relative'
+};
+
+var graylinebg = {
+
+
+  backgroundImage: `url(${pic08})`,
+  backgroundRepeat  : 'repeat-y',
+  backgroundPosition: 'center top',
+  paddingTop: '5em'
+};
 
 class Homepage extends React.Component {
     render() {
@@ -33,7 +53,8 @@ class Homepage extends React.Component {
                 </Helmet>
 
                 <section id="one" className="main style1 bg1" style={ sectionStyle1 }>
-                    <div className="grid-wrapper">
+                    <div className="tribg" style={tribg}></div>
+                    <div className="grid-wrapper" style={graylinebg}>
                         <div className="col-12">
                             <header className="major">
                                 <h2 className="the-column-headline">Always one step ahead</h2>

@@ -929,7 +929,7 @@
 /* Main */
 
 	.main {
-		@include padding(6em, 0);
+		@include padding(0em, 0);
 
 		&.style1 {
 			background: _palette(bg1);
@@ -1119,7 +1119,7 @@
 		/* Main */
 
 			.main {
-				@include padding(4em, 0);
+				@include padding(0em, 0);
 
 				&.style2 {
 					background-attachment: scroll;
@@ -1169,7 +1169,7 @@
 		/* Main */
 
 			.main {
-				@include padding(5em, 3em);
+				@include padding(0em, 3em);
 			}
 
 		/* Header */
@@ -1266,7 +1266,7 @@
 		/* Main */
 
 			.main {
-				@include padding(3em, 1.5em);
+				@include padding(0em, 1.5em);
 			}
 
 		/* Header */
@@ -1343,7 +1343,7 @@
 		/* Main */
 
 			.main {
-				@include padding(2em, 1.5em);
+				@include padding(0em, 1.5em);
 			}
 
 		/* Header */
@@ -1392,7 +1392,7 @@
 		/* Main */
 
 			.main {
-				@include padding(2em, 1em);
+				@include padding(0em, 1em);
 			}
 
 		/* Header */
