@@ -55,7 +55,8 @@
 
 		&:hover {
 			border-bottom-color: transparent !important;
-			color: _palette(accent3);
+			// color: _palette(accent3);
+			color: #4A90E2;
 		}
 	}
 
@@ -1625,7 +1626,7 @@ height: 642px;
 	background-color: #4A90E2;
 	  border: 1px solid #4A90E2;
 	  border-radius: 2px;
-	  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
+	  // box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
 	  width: 200px;
 	  height: 45px;
 }
