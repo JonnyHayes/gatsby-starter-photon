@@ -29,7 +29,7 @@ var tribg = {
   backgroundImage: `url(${pic07})`,
   backgroundRepeat  : 'no-repeat',
   backgroundPosition: 'center top',
-  height: '55px',
+  height: '50px',
   position: 'relative'
 };
 
@@ -106,7 +106,7 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="two" className="main style2">
+                <section id="two" className="main style2 pad200">
                   <div className="grid-wrapper">
 
 
@@ -148,7 +148,7 @@ class Homepage extends React.Component {
                   </div>
                 </section>
 
-                <section id="three" className="main style1">
+                <section id="three" className="main style1 pad200">
                   <div className="grid-wrapper">
 
                       <div className="col-6 separator-line">
@@ -186,7 +186,7 @@ class Homepage extends React.Component {
                   </div>
                 </section>
 
-                <section id="four" className="main">
+                <section id="four" className="main pad200">
                   <div className="grid-wrapper">
 
                       <div className="col-6 separator-line">
@@ -233,7 +233,7 @@ class Homepage extends React.Component {
                       </div>
                   </div>
                 </section>
-                <section id="five" className="main style1">
+                <section id="five" className="main style1 pad200">
                   <div className="grid-wrapper">
 
                       <div className="col-6 separator-line">

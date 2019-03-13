@@ -1769,7 +1769,9 @@ position:relative;
 left:432px;
 top:-2px;
 }
-
+.fa:before {
+	font-size:14px;
+}
 .first .fa.fa-paper-plane.oval, {
 	top:0px;
 
@@ -1777,6 +1779,25 @@ top:-2px;
 .first .fa-send:before, .first .fa-paper-plane:before{
 content : " ";
 }
+ .fa-paper-plane:before{
+position: relative;
+left: 4px;
+top: -2px;
+}
+
+.fa-exclamation-triangle:before{
+
+	position: relative;
+	left: 5px;
+	top: -3px;
+}
+.fa-envelope:before{
+
+	position: relative;
+	left: 5px;
+	top: -2px;
+}
+
 .first .oval:after {
 			content: " ";
 			display:none;
@@ -1830,7 +1851,7 @@ height: 30px;
 
 #five li.abnorm {
 	position:relative;
-	left:-20px;
+	left:-18px;
 	top:50px;
 }
   .oval {
@@ -1965,6 +1986,7 @@ ul .nonbulleted {
   text-align: left
 }
 .pad10 {padding:10px 0;}
+.pad200 {padding:200px 0 0 0;}
 .norm {
     padding-top: 50px;
     padding-bottom: 50px;
