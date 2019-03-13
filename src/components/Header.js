@@ -1,16 +1,6 @@
 import React from 'react'
 import logo from '../assets/images/Shape/png/Shape@2x.png'
 
-import pic07 from '../assets/images/trianglebg.png'
-var tribg = {
-
-
-  backgroundImage: `url(${pic07})`,
-  backgroundRepeat  : 'no-repeat',
-  backgroundPosition: 'center'
-
-};
-
 
 
 class Header extends React.Component {
@@ -51,7 +41,7 @@ class Header extends React.Component {
                   </div>
                 </div>
             </div>
-            <div className="tribg" style={tribg}></div>
+            
           </section>
 
         )
